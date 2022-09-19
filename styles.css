@@ -1,0 +1,439 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+.landing{
+	height: 100vh;
+	width: 100%;
+
+	background-image: url(snowmountain.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+
+nav{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	padding-top: 48px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+
+.logo{
+	color: #6e0838;;
+	font-size: 50px;
+	letter-spacing: 2px;
+	cursor: pointer;
+	width: auto;
+	align-content:flex-start;
+	text-align:center;
+}
+
+.span{
+	color:beige
+}
+
+.content h2{
+	color: rgba(184, 59, 136, 0.513);
+}
+nav ul{
+
+	list-style-type: none;
+	margin: 0;
+	padding: 20px  50px;
+
+}
+nav li{
+	float: left;
+}
+
+nav ul li a{
+
+	color: rgb(206, 193, 161);
+	display: block;
+	padding: 8px;
+	font-size: 22px;
+	text-decoration:solid;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	width: 25%;
+	
+}
+ 
+nav ul li a:hover{
+	color: rgb(151, 84, 3);
+	transition: .4s;
+}
+
+.btn{
+	background-color:#d5b89dad;
+	color: beige;
+	text-transform: uppercase;
+	text-decoration:saddlebrown;
+	border: 5px solid transparent;
+	font-weight: bold;
+
+	padding: 20px 25px;
+	border-radius: 35px;
+	transition: transform .2s; 
+}
+.btn:hover{
+
+	transform: scale(1.2);
+	color: rgb(210, 137, 65);
+}
+
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+
+h2{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 55px;
+}
+
+h3{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 50px;
+}
+
+/* About Me */
+
+/* .about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #040202e9;
+} */
+.about{
+	background-color: rgba(221, 156, 180, 0.521);
+}
+
+.about img{
+	height: auto;
+	width: 500px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+}
+.about-text h2{
+	color: #392715;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: rgb(109, 109, 39);
+	letter-spacing: 2px;
+	font-size: 22px;
+	font-style: italic;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: rgb(7, 5, 1);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 20px;
+	margin-bottom: 45px;
+}
+
+/*Portfolio */
+
+
+
+.portfolio{
+	background-color: #170c0ce9;
+	width: 100%;
+	padding: 10px 0px;
+	background-image: url(sierra.jpeg);
+	background-size: cover;
+	background-position: center;
+}
+.portfolio nav{
+
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-left: 8%;
+	padding-right: 8%;
+	font-size: large;
+	
+}
+
+.portfolio nav ul{
+
+	list-style-type: none;
+	margin: 0;
+	padding: 20px  50px;
+
+}
+.portfolio nav li{
+	float: left;
+}
+
+.portfolio nav ul li a{
+
+	color: rgb(206, 193, 161);
+	display: block;
+	padding: 8px;
+	font-size: 22px;
+	text-decoration:solid;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	width: 25%;
+	
+}
+ 
+.portfolio nav ul li a:hover{
+	color: rgb(135, 78, 9);
+	transition: .4s;
+}
+
+
+.title h2{
+	color: #ebe5e0;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 480px;
+	width: 385px;
+	padding: 20px 35px;
+	background-color:#d5b89dad;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	opacity: 0.8;
+}
+.card i{
+	font-size: 40px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: rgb(109, 92, 9);
+}
+
+.card h5{
+	color: rgb(80, 16, 12);
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: rgb(99, 73, 8);
+	font-size: 20px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color:#69431f;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #835f34bb;
+	cursor: pointer;
+}
+
+/* Qualifications*/
+
+
+.qualifications {
+	background-color: #170c0ce9;
+	width: 100%;
+	padding: 1px 1px;
+	background-image: url(valleys.jpeg);
+	background-size: cover;
+	background-position: center;
+	
+
+}
+
+.qualifications nav{
+
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-left: 8%;
+	padding-right: 8%;
+	font-size: large;
+	
+}
+
+.qualifications nav ul{
+
+	list-style-type: none;
+	margin: 0;
+	padding: 20px  50px;
+
+}
+.qualifications nav li{
+	float: left;
+}
+
+.qualifications nav ul li a{
+
+	color: rgb(163, 119, 9);
+	display: block;
+	padding: 8px;
+	font-size: 22px;
+	text-decoration:solid;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	width: 25%;
+	
+}
+ 
+.qualifications nav ul li a:hover{
+	color: rgb(135, 78, 9);
+	transition: .4s;
+}
+
+.qualifications li{
+
+	color: rgb(229, 225, 215);
+	display: block;
+	padding: 8px;
+	font-size: 22px;
+	text-decoration:solid;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: left;
+	width: 25%;
+
+}
+
+.qualifications title h2{
+
+	color: #353530;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/* SERVICE PAGE */
+
+.service {
+	background-color: #170c0ce9;
+	width: 100%;
+	padding: 1px 1px;
+	background-image: url(narrows.jpeg);
+	background-size: cover;
+	background-position: center;
+	
+
+}
+
+.service nav{
+
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-left: 8%;
+	padding-right: 8%;
+	font-size: large;
+	
+}
+
+.service nav ul{
+
+	list-style-type: none;
+	margin: 0;
+	padding: 20px  50px;
+
+}
+.service nav li{
+	float: left;
+}
+
+.service nav ul li a{
+
+	color: rgb(206, 193, 161);
+	display: block;
+	padding: 8px;
+	font-size: 22px;
+	text-decoration:solid;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: left;
+	width: 25%;
+	
+}
+ 
+.service nav ul li a:hover{
+	color: rgb(135, 78, 9);
+	transition: .4s;
+}
+
+.service li{
+
+	color: rgb(206, 193, 161);
+	display: block;
+	padding: 8px;
+	font-size: 22px;
+	text-decoration:solid;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: left;
+	width: 25%;
+
+}
+.service .card{
+	height: 900px;
+	width: 405px;
+	padding: 20px 35px;
+	background-color:#d5b89dad;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	opacity: 0.8;
+
+}
+
+
+  
+
